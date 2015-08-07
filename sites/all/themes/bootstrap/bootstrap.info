@@ -1,0 +1,224 @@
+name = Bootstrap
+description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+core = 7.x
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+regions[footer_social_media]    = 'Footer Social Media'
+
+regions[tb_left_mega_menu]          = 'TB Left Mega Menu'
+regions[tb_mega_menu]               = 'TB Mega Menu'
+regions[footer_menu_block_one]      = 'Footer menu block one'
+regions[footer_menu_block_two]      = 'Footer menu block two'
+regions[footer_menu_block_three]    = 'Footer menu block three'
+regions[footer_menu_block_contact]  = 'Footer menu block contact'
+
+
+;HOME PAGE;
+regions[home_bridge_description]   	= 'Home Bridge Description'
+regions[home_page_client_logos]    	= 'Home Page Client Logos'
+regions[bridge_book_a_call]    		= 'Book a Call'
+regions[client_case_webform]       = 'Client Cases'
+regions[home_client_cases]          = 'Home Client cases'
+
+
+;DELIVERY MODEL PAGE;
+
+
+;EBOOKS PAGE;
+regions[ebook_how_to_not_screw_webform]     = 'eBook How to not screw'
+regions[ebook_how_to_get_prepared_webform]  = 'eBook How to get prepared'
+regions[ebook_how_to_organize_webform]      = 'eBook How to organize'
+regions[ebook_how_to_overcome_webform]      = 'eBook How to overcome'
+regions[ebook_how_to_communicate_webform]   = 'eBook How to communicate'
+regions[ebook_how_to_manage_webform]        = 'eBook How to manage'
+regions[all_ebook_download]                 = 'eBook : All eBook download'
+
+
+;BRIDGE METHOD PAGE;
+regions[bridge_method_content]              = 'Bridge Method Content'
+regions[contact_solution_architect]         = 'Contact Solution Architect'
+
+
+;VIDEO PAGE;
+regions[bridge_video]                       = 'Bridge Video'
+
+;INNER BANNER CONTENT
+regions[inner_banner_content]               = 'Inner banner content'
+
+;;CAREER PAGE;;
+regions[career_left_title]                  = 'Career page left title'
+regions[career_left_content]                = 'Career page left content'
+regions[career_right_slider]                = 'Career page right slider'
+regions[career_job_opening_block]           = 'Career page job opening block'
+regions[career_upload_cv]                   = 'Career page upload cv'
+regions[career_our_benefits]                = 'Career page our benefits'
+regions[career_employees_say_slider]        = 'Career page employees say slider'
+regions[career_leave_your_cv_popup]         = 'Career page leave your cv popup'
+
+
+;;DISCUSS TEAM WITH BRIDGE;;
+regions[discuss_team_with_bridge]           = 'Discuss Team With Bridge'
+
+;;CONTACT PAGE
+regions[contact_request_for_service]        = 'Contact request for service'
+regions[contact_left]                       = 'Contact left'
+
+;;OUR CLIENT PAGE;;
+regions[our_client_top_content]             = 'Our Client top content'
+regions[our_client_logos]                   = 'Our Client logos'
+regions[testimonial_slider_heading]         = 'Testimonial slider heading'
+regions[testimonial_slider_content]         = 'Testimonial slider content'
+regions[client_logo_slider_header_home]     = 'Client Logo Slider Header For Home Page'
+regions[client_logo_slider_home]            = 'Client Logo Slider For Home Page'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Theme Settings
+;;;;;;;;;;;;;;;;;;;;;
+
+; Breadcrumbs
+; --------------
+settings[bootstrap_breadcrumb] = 1
+settings[bootstrap_breadcrumb_home] = 0
+settings[bootstrap_breadcrumb_title] = 1
+
+; Navbar
+; --------------
+settings[bootstrap_navbar_position] = ''
+settings[bootstrap_navbar_inverse] = 0
+
+; Region Wells
+; --------------
+settings[bootstrap_region_well-navigation] = ''
+settings[bootstrap_region_well-header] = ''
+settings[bootstrap_region_well-highlighted] = ''
+settings[bootstrap_region_well-help] = ''
+settings[bootstrap_region_well-content] = ''
+settings[bootstrap_region_well-sidebar_first] = 'well'
+settings[bootstrap_region_well-sidebar_second] = ''
+settings[bootstrap_region_well-footer] = ''
+
+; Anchors
+; --------------
+settings[bootstrap_anchors_fix] = 1
+settings[bootstrap_anchors_smooth_scrolling] = 1
+
+; Popovers
+; --------------
+settings[bootstrap_popover_enabled] = 1
+settings[bootstrap_popover_animation] = 1
+settings[bootstrap_popover_html] = 0
+settings[bootstrap_popover_placement] = 'right'
+settings[bootstrap_popover_selector] = ''
+settings[bootstrap_popover_trigger]['hover'] = 0
+settings[bootstrap_popover_trigger]['focus'] = 0
+settings[bootstrap_popover_trigger]['click'] = 'click'
+settings[bootstrap_popover_title] = ''
+settings[bootstrap_popover_content] = ''
+settings[bootstrap_popover_delay] = 0
+settings[bootstrap_popover_container] = 'body'
+
+; Tooltips
+; --------------
+settings[bootstrap_tooltip_enabled] = 1
+settings[bootstrap_tooltip_descriptions] = 1
+settings[bootstrap_tooltip_animation] = 1
+settings[bootstrap_tooltip_html] = 0
+settings[bootstrap_tooltip_placement] = 'auto left'
+settings[bootstrap_tooltip_selector] = ''
+settings[bootstrap_tooltip_trigger]['hover'] = 'hover'
+settings[bootstrap_tooltip_trigger]['focus'] = 'focus'
+settings[bootstrap_tooltip_trigger]['click'] = 0
+settings[bootstrap_tooltip_delay] = 0
+settings[bootstrap_tooltip_container] = 'body'
+
+; Advanced
+; --------------
+settings[bootstrap_cdn] = 3.0.2
+settings[bootstrap_bootswatch] = ''
+
+; Global
+; --------------
+settings[toggle_name] = 1
+settings[toggle_search] = 1
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Excludes
+;;;;;;;;;;;;;;;;;;;;;
+
+; JavaScript
+; --------------
+; exclude[js][] = 'modules/contextual/contextual.js'
+  scripts[]     = 'js/custom.js' 
+
+; CSS
+; --------------
+exclude[css][] = 'misc/vertical-tabs.css'
+exclude[css][] = 'modules/aggregator/aggregator.css'
+; Necessary administrative block CSS.
+; exclude[css][] = 'modules/block/block.css'
+exclude[css][] = 'modules/book/book.css'
+exclude[css][] = 'modules/comment/comment.css'
+exclude[css][] = 'modules/dblog/dblog.css'
+exclude[css][] = 'modules/file/file.css'
+exclude[css][] = 'modules/filter/filter.css'
+exclude[css][] = 'modules/forum/forum.css'
+exclude[css][] = 'modules/help/help.css'
+exclude[css][] = 'modules/menu/menu.css'
+exclude[css][] = 'modules/node/node.css'
+exclude[css][] = 'modules/openid/openid.css'
+exclude[css][] = 'modules/poll/poll.css'
+exclude[css][] = 'modules/search/search.css'
+exclude[css][] = 'modules/statistics/statistics.css'
+exclude[css][] = 'modules/syslog/syslog.css'
+exclude[css][] = 'modules/system/maintenance.css'
+exclude[css][] = 'modules/system/system.maintenance.css'
+exclude[css][] = 'modules/system/system.menus.css'
+exclude[css][] = 'modules/system/system.messages.css'
+exclude[css][] = 'modules/system/system.theme.css'
+exclude[css][] = 'modules/taxonomy/taxonomy.css'
+exclude[css][] = 'modules/tracker/tracker.css'
+exclude[css][] = 'modules/update/update.css'
+exclude[css][] = 'modules/user/user.css'
+;exclude[css][] = 'modules/system/admin.css'
+;exclude[css][] = 'modules/system/system.css'
+;exclude[css][] = 'modules/system/system.admin.css'
+;exclude[css][] = 'modules/system/system.base.css'
+
+stylesheets[all][] = 'css/bootstrap.min.css'
+stylesheets[all][] = 'css/bridge.css'
+stylesheets[all][] = 'css/nav.css'
+stylesheets[all][] = 'css/responsive.css'
+stylesheets[all][] = 'css/owl.carousel.css'
+stylesheets[all][] = 'css/owl.theme.css'
+stylesheets[all][] = 'css/owl.transitions.css'
+stylesheets[all][] = 'fonts/fonts.css'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; SimplyTest.me
+;;;;;;;;;;;;;;;;;;;;;
+
+simplytest_dependencies[] = jquery_update
+
+; Information added by  packaging script on 2013-11-17
+version = "7.x-3.0"
+core = "7.x"
+project = "bootstrap"
+datestamp = "1384678107"
+

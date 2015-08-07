@@ -1,0 +1,16 @@
+/* 
+    Only for IE8 and below
+*/
+.banner{
+    background: url(../images/banner.jpg) no-repeat center top;
+}
+.left.carousel-control,
+.right.carousel-control{
+    filter:none;
+}
+.book-button{
+    margin-bottom: -5px;
+}
+.footer{
+
+}

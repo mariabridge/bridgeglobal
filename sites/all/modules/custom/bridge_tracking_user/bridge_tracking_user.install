@@ -1,0 +1,40 @@
+<?php
+
+function bridge_tracking_user_schema() {
+  $schema['bridge_tracking_user'] = array(
+  'description' => 'Save user IP',
+  'fields' => array(
+    'id' => array(
+      'description' => 'My unique identifier',
+      'type' => 'int',
+      'unsigned' => TRUE,
+      'not null' => TRUE,
+    ),
+    'user_ip' => array(
+      'description' => 'TODO: please describe this field!',
+      'type' => 'varchar',
+      'length' => '255',
+      'not null' => TRUE,
+      'default' => '',
+    ),
+    'name' => array(
+      'description' => 'TODO: please describe this field!',
+      'type' => 'varchar',
+      'length' => '255',
+      'not null' => TRUE,
+      'default' => '',
+    ),
+    'email' => array(
+      'description' => 'TODO: please describe this field!',
+      'type' => 'varchar',
+      'length' => '255',
+      'not null' => TRUE,
+      'default' => '',
+    ),
+  ),
+  'primary key' => array('id'),
+    );
+        return $schema;     
+}
+
+?>

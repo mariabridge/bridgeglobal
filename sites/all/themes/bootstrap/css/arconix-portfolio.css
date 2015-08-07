@@ -1,0 +1,85 @@
+/* 
+@import "responsive.css";
+ARCONIX PORTFOLIO CSS
+--------------------------
+
+PLEASE DO NOT make modifications to this file directly as it will be overwritten on update.
+Instead, save a copy of this file to your theme or child theme directory. It will then be
+loaded in place of the plugin's version and will maintain your changes on upgrade
+*/
+
+/* Feature Wrapper */
+.arconix-portfolio-features {
+/*    border-bottom: 1px solid #ddd;*/
+    list-style-type: none;
+    margin: 0 0 40px 0 !important;
+    padding: 0 0 10px 0 !important;
+    text-align: center;
+}
+
+/* Each feature list item */
+.arconix-portfolio-features li {
+    display: inline-block;
+/*    margin-left: 2%;*/
+    margin:5px;
+}
+
+/* Each feature link */
+.arconix-portfolio-features li a {
+    background: none repeat scroll 0 0 #eee;
+/*  border-radius: 3px;*/
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 5px 25px;
+    text-decoration: none;
+/*    text-transform: uppercase;*/
+    outline: 0;
+    border: 1px solid #f1f1f1;
+    display: block;
+    
+}
+
+.arconix-portfolio-features li a:hover,
+.arconix-portfolio-features li.active a {
+    background: none repeat scroll 0 0 #82c549;
+    color: #fff;
+}
+
+/* The Heading to the left of the items */
+.arconix-portfolio-category-title { 
+    margin-left: 0;
+    font-weight: bold;
+}
+
+/* The portfolio item grid */
+.arconix-portfolio-grid {
+    margin-left: 0;
+    text-align: left;
+}
+
+/* Each portfolio list item */
+.arconix-portfolio-grid li {
+    display: inline-block;
+    list-style: none;
+/*    margin: 0 1.5% 15px 1.5% !important;           */
+    max-width: 100%;
+    width: 235px;
+    height: 230px;
+    vertical-align: top;
+    border: 0;
+    border: 8px solid #ccc;
+    text-align: center;
+}
+
+/* Portfolio featured image */
+.arconix-portfolio-grid img {
+    background-color: #fff;
+}
+
+/* Portfolio post-title */
+.arconix-portfolio-title {
+    font-size: 17px;
+    margin-bottom: 3px !important;
+    text-align: center;
+}
